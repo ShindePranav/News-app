@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "News-App",
+    "slug": "News-App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shindepranav.NewsApp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.shindepranav.NewsApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "News App to demonstrate use of REDUX",
+    "githubUrl": "https://github.com/ShindePranav/News-app.git"
+  }
+}
